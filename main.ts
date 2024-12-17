@@ -8,7 +8,7 @@ export default {
     const url = new URL(req.url);
 
     if (url.pathname === "/") {
-      return new Response("Deno Test Home page");
+      return new Response("CJF4 Home page");
     }
 
     const userPageMatch = userPagePattern.exec(url);
